@@ -1,0 +1,8 @@
+.export-btn{
+    background-color: rgb(56,43,219);
+    display: flex;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}

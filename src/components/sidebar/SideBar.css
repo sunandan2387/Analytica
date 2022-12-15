@@ -1,6 +1,6 @@
 .container-fluid {
     height: 100vh;
-
+    box-shadow: 0.2px 0.5px 2px 0.5px #888888;
 }
 ul{
     display: inline;
@@ -18,12 +18,12 @@ li{
 }
 li:hover{
     color: white;
-    background-color: rgb(2, 117, 216);
+    background-color: rgb(56,43,219);
     transition: 0.5s ease;
 }
 .border-gray{
-border-bottom: 2px solid lightgray;
-border-right: 2px solid lightgray;
+    border-bottom: 2px solid white;
+ 
 }
 .f-size{
     font-size:smaller;

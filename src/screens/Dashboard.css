@@ -39,3 +39,13 @@
 .upperpart{
     border-bottom: 2px solid lightgray;
 }
+.boderedcol{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+h6{
+    font-size: smaller !important;
+}
+.hgraph{
+    height: 50%;
+}

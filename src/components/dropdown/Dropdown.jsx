@@ -8,9 +8,8 @@ const Dropdown = () => {
     Monthly&nbsp;
   </button>
   <ul className="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href='/'>Monthly</a></li>
+    <li><a class="dropdown-item" href='/'>Yearly</a></li>
   </ul>
 </div>
     </div>

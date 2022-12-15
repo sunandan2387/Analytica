@@ -9,7 +9,7 @@ const SearchBar = () => {
   return (
       <div className='searchbar p-0 m-0 container-fluid '>
           <div className="row p-0 m-0">
-              <div className="col searchbox px-4 py-2 m-0">
+              <div className="col searchbox px-4 py-1 pt-3 m-0">
                   <div className="left-align pt-2">
                   <BsSearch/>
                   <input className=' mx-3 ' placeholder='Type to search...' type="search" />

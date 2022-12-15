@@ -22,7 +22,7 @@ import { BiHelpCircle} from 'react-icons/bi';
        <div className="row mb-3 m-0 p-0 border-gray">
              <div className="d-flex flex-row col px-3 py-2 pb-3 m-0 p-0">
                   <img src="https://img.icons8.com/cute-clipart/512/rocket.png" alt="rocket" />
-                  <h3> &nbsp; Artemis</h3>
+                  <h3 className='pt-2'> &nbsp; Artemis</h3>
               </div>
            </div>
           
@@ -32,7 +32,7 @@ import { BiHelpCircle} from 'react-icons/bi';
              <span style={{ fontSize: "small", fontWeight: 500 }}>MAIN</span>
              </div>
            <ul className='p-0 m-0'>
-             <li className='py-2 px-2 f-size'><BsClock/> &nbsp; Dashboard</li>
+             <li className='py-2 mx-0 px-2 f-size'><BsClock/> &nbsp; Dashboard</li>
              <li className='py-2 px-2 f-size'><BsGlobe/> &nbsp; Discover</li>
              <li className='py-2 px-2 f-size'><FiUser/> &nbsp; Users</li>
              <li className='py-2 px-2 f-size'><BsBook/> &nbsp; Documents</li>

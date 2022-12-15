@@ -1,3 +1,30 @@
 .container-fluid {
     height: 100vh;
 }
+.analitics{
+    height: 90vh;
+    background-color: rgb(241,244,249);
+}
+.h-60{
+    height: 60vh;
+}
+.h-40{
+    height: 35%;
+}
+.h-55{
+    height:60%;
+}
+.highlight{
+    background-color: rgb(23,187,132);
+    border-radius: 15px;
+    font-size: small;
+    color: white;
+}
+.greyColor{
+   color: rgb(115,131,152);
+}
+.bgWhite{
+    background-color: white;
+    border-radius: 5px;
+
+}

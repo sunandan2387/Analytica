@@ -1,5 +1,6 @@
 .container-fluid {
     height: 100vh;
+
 }
 ul{
     display: inline;
@@ -21,7 +22,8 @@ li:hover{
     transition: 0.5s ease;
 }
 .border-gray{
-border: 2px solid lightgray;
+border-bottom: 2px solid lightgray;
+border-right: 2px solid lightgray;
 }
 .f-size{
     font-size:smaller;

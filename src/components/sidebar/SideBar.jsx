@@ -20,7 +20,7 @@ import { BiHelpCircle} from 'react-icons/bi';
            
          
        <div className="row mb-3 m-0 p-0 border-gray">
-             <div className="d-flex flex-row col px-3 py-3 m-0 p-0">
+             <div className="d-flex flex-row col px-3 py-2 pb-3 m-0 p-0">
                   <img src="https://img.icons8.com/cute-clipart/512/rocket.png" alt="rocket" />
                   <h3> &nbsp; Artemis</h3>
               </div>

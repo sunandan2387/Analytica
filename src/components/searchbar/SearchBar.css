@@ -1,0 +1,23 @@
+.container-fluid{
+    height: 10vh;
+}
+input{
+    border: none;
+    outline: none;
+    width: 30vw;
+}
+.searchbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detail-font{
+    font-size: smaller;
+}
+img{
+    height: 50px;
+    width: auto;
+}
+.right-align{
+    float: right;
+}

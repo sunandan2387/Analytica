@@ -27,7 +27,7 @@ import { BiHelpCircle} from 'react-icons/bi';
            </div>
           
        <div className="row mb-2 m-0 p-0">
-             <div className="col">
+             <div className="col ">
              <div className="text py-1">
              <span style={{ fontSize: "small", fontWeight: 500 }}>MAIN</span>
              </div>

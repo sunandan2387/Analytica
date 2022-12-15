@@ -26,6 +26,7 @@ li:hover{
  
 }
 .f-size{
-    font-size:smaller;
-    font-weight: bold;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(103, 102, 102);
 }

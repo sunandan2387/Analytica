@@ -23,7 +23,7 @@ const Dashboard = () => {
                   </div>
                   <div className="row p-0 m-0 analitics">
             <div className="col p-0 m-0 m-0 ">
-              <div className="row h-60 py-3 px-5 mx-5 m-0">
+              <div className="row h-60 py-3 px-5  mx-5 m-0">
                 <div className="col mx-4">
                   <div className="row h-100 p-0 m-0">
                     <div className="col-12 bgWhite d-flex flex-column py-4 h-40 mb-2">
@@ -48,7 +48,7 @@ const Dashboard = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col px-0 mx-0 bgWhite mx-4">
+                <div className="col px-0 mx-0 bgWhite ms-1 mx-4">
                   
                   <div className="upperpart py-3">
                     <div className=' d-flex justify-content-between px-3'>

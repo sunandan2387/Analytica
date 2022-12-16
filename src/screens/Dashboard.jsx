@@ -27,7 +27,7 @@ const Dashboard = () => {
                 <div className="col mx-4">
                   <div className="row h-100 p-0 m-0">
                     <div className="col-12 bgWhite d-flex flex-column py-4 h-40 mb-2">
-                      <h6 className='text-secondary greyColor'>Total Income</h6>
+                        <h6 className='text-secondary greyColor'>Total Income</h6>
                       <div className="wrap my-1 d-flex align-items-center">
                       <h3 className='fw-bold'>$124,563.00</h3>
                       <h6 className='ms-3 highlight p-2 py-1'>+6.9%</h6>
@@ -48,7 +48,7 @@ const Dashboard = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col px-0 mx-0 bgWhite ms-1 mx-4">
+                <div className="col px-0 bgWhite ms-1 mx-4">
                   
                   <div className="upperpart py-3">
                     <div className=' d-flex justify-content-between px-3'>

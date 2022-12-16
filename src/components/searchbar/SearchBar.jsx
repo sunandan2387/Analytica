@@ -24,7 +24,7 @@ const SearchBar = () => {
                       <h5 style={{fontSize:'small'}}>Thomas Brown</h5>
                       <p>Developer</p> 
                   </div>
-                  <img src="https://img.icons8.com/bubbles/512/user.png" alt="user" />
+                  <img loading='lazy' src="https://img.icons8.com/bubbles/512/user.png" alt="user" />
                   </div>
               </div>
           </div>

@@ -212,9 +212,9 @@ function EnhancedTableToolbar(props) {
         </Tooltip>
       ) : (
         <Tooltip title="Export">
-            <div className="export-btn px-3 pt-1 py-2 me-3">
+            <div className="export-btn bg-primary px-4 pt-2 py-2 me-3">
               <CiExport/>
-              <span> &nbsp;Export</span>
+              <span>&nbsp;&nbsp;Export</span>
           </div>
         </Tooltip>
       )}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import './Dashboard.css'
 import SideBar from '../components/sidebar/SideBar'
 import SearchBar from '../components/searchbar/SearchBar'
@@ -7,8 +7,27 @@ import EnhancedTable from '../components/datatable/Table'
 import Dropdown from '../components/dropdown/Dropdown'
 import Barchart from '../components/barchart/Barchart.tsx'
 import Areachart from '../components/areachart/Areachart.tsx'
+import axios from 'axios'
+
+
 
 const Dashboard = () => {
+
+  const [nifty, setNifty] = useState("");
+ 
+
+const fetchApi = async () => {
+    const data = await axios.get('http://127.0.0.1:5000/nifty50', {
+    })
+  setNifty(data)
+  console.log(data)
+ 
+}
+
+  useEffect(()=>{
+    fetchApi()
+  },[])
+
   return (
     <div className="container-fluid m-0 p-0">
      <div className="row m-0 p-0">
@@ -29,7 +48,7 @@ const Dashboard = () => {
                     <div className="col-12 bgWhite d-flex flex-column py-4 h-40 mb-2">
                         <h6 className='text-secondary greyColor'>Total Income</h6>
                       <div className="wrap my-1 d-flex align-items-center">
-                      <h3 className='fw-bold'>$124,563.00</h3>
+                        <h3 className='fw-bold'>{nifty}</h3>
                       <h6 className='ms-3 highlight p-2 py-1'>+6.9%</h6>
                       </div>
                       <Progress/>
